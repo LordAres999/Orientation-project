@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #96D4D4;
+        }
+        th {
+            background-color: #96D4D4;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+        td:nth-child(even), th:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+        tr {
+            border-bottom: 1px solid #ddd;
+        }
+        th:first-child, td:first-child {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Records</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th colspan="2">Contact Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">John Doe</td>
+                <td rowspan="2">20</td>
+                <td>john.doe@example.com</td>
+                <td>123-456-7890</td>
+            </tr>
+            <tr>
+                <td>jane.smith@example.com</td>
+                <td>098-765-4321</td>
+            </tr>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>22</td>
+                <td>alice.johnson@example.com</td>
+                <td>555-123-4567</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
