@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* pushes logo left, links center, and button right */
+    align-items: center;
+    /* centers everything vertically */
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    /* makes the UL a flex container tool */
+    gap: 20px;
+    /* modern way to add spaces btw items  */
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    /* removes underline */
+}
+#profile{
+   background:#333;
+   color: white;
+   display: flex;
+   flex-direction: row;
+}
+.mii{
+    
+}
